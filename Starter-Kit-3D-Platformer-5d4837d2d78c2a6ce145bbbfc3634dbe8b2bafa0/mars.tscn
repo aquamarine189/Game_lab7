@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://freyw6wpegkk"]
+
+[ext_resource type="Script" uid="uid://dubnut0ebxfoj" path="res://mars.gd" id="1_ksmih"]
+[ext_resource type="PackedScene" uid="uid://b0qrgyqaa5opg" path="res://objects/Mars.glb" id="2_jwv7x"]
+
+[node name="mars" type="Node3D"]
+transform = Transform3D(0.005, 0, 0, 0, 0.005, 0, 0, 0, 0.005, 0, 0, 0)
+script = ExtResource("1_ksmih")
+
+[node name="Mars2" parent="." instance=ExtResource("2_jwv7x")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0.190822, 0, -0.115275)

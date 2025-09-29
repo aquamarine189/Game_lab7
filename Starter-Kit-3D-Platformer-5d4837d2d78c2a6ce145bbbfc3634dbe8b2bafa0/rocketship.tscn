@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bktdvfvny8nqu"]
+
+[ext_resource type="PackedScene" uid="uid://doe7fp2b7gud6" path="res://models/Rocketship.glb" id="1_mv11w"]
+
+[node name="Rocketship" instance=ExtResource("1_mv11w")]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0)

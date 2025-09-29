@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://c3mf545ld1q0l"]
+
+[ext_resource type="PackedScene" uid="uid://qlac4i72phu" path="res://models/Pikachu.glb" id="1_o0hew"]
+
+[node name="Pikachu" instance=ExtResource("1_o0hew")]
+
+[node name="group1465871970" parent="." index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.657922, 0)

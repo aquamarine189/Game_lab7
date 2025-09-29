@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://ceev5e0kuhy3c"]
+
+[ext_resource type="Script" uid="uid://cqi5c0623bvq6" path="res://node_3d.gd" id="1_qbwya"]
+[ext_resource type="PackedScene" uid="uid://d0tfqgjmbqasg" path="res://models/Planet (1).glb" id="2_2bhor"]
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource("1_qbwya")
+
+[node name="eath" parent="." instance=ExtResource("2_2bhor")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.743109, 0.994361, -0.136621)

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bmsi3scnrsm1d"]
+
+[ext_resource type="PackedScene" uid="uid://bk17gukbubapb" path="res://models/Probodobodyne.glb" id="1_oag01"]
+
+[node name="Probodobodyne" instance=ExtResource("1_oag01")]
+transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, 0, 0, 0)

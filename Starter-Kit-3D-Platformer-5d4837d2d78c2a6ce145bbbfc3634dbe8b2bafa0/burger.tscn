@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://buy30xio8jrh4"]
+
+[ext_resource type="Script" uid="uid://bouvkp8bvqvlo" path="res://burger.gd" id="1_5n162"]
+[ext_resource type="PackedScene" uid="uid://4ajv1hqgfnfq" path="res://models/Burger.glb" id="2_eu31t"]
+
+[node name="Burger" type="Node3D"]
+script = ExtResource("1_5n162")
+
+[node name="Root Scene" parent="." instance=ExtResource("2_eu31t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0826071, 0.341259, 0.119737)

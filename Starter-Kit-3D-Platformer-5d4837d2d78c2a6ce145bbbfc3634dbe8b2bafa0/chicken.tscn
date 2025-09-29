@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bqjj1tmga53ti"]
+
+[ext_resource type="Script" uid="uid://c45r1d8y6ios3" path="res://chicken.gd" id="1_isa2u"]
+[ext_resource type="PackedScene" uid="uid://boejdpgmwaeeq" path="res://models/Chicken.glb" id="2_tl7hd"]
+
+[node name="Chicken" type="Node3D"]
+script = ExtResource("1_isa2u")
+
+[node name="Chicken" parent="." instance=ExtResource("2_tl7hd")]
+transform = Transform3D(-0.0459354, 0, 0.0197468, 0, 0.05, 0, -0.0197468, 0, -0.0459354, -0.660617, 0, 1.00659)

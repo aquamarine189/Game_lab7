@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cqt53u4x54hm0"]
+
+[ext_resource type="PackedScene" uid="uid://dtjvjdjl8cs6e" path="res://models/flag.glb" id="1_amn8n"]
+[ext_resource type="PackedScene" uid="uid://bktdvfvny8nqu" path="res://rocketship.tscn" id="2_ukulb"]
+
+[node name="flag" instance=ExtResource("1_amn8n")]
+
+[node name="flag2" parent="." index="0"]
+visible = false
+
+[node name="Rocketship" parent="." index="1" instance=ExtResource("2_ukulb")]
